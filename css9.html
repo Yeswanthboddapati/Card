@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: content-box;
+        }
+        body{
+            margin: 150px 0px 120px 0px;
+        }
+        .contain{
+            width: 100vw;
+            height: 100%;
+            display: flex;
+            row-gap: 40px;
+            column-gap: 25px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            transition: all 2s;
+        }
+        .demo{
+            border: 3px  red;
+            box-shadow: 0px 0px 10px 0px;
+            width: 400px;
+            height: 180px;
+            border-radius: 10px;  
+        }
+        img{
+            max-width: 70px;
+            max-height: 70px;
+            padding: 15px 15px 15px 15px;   
+        }
+        .sec{
+            display: flex;
+        }
+        ul li{
+            display: flex;
+            padding-top: 10px;
+        }
+        #set{
+            text-align: right;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            color: blue;
+        }
+        #title{
+            color: green;
+        }
+        #set:hover{
+            transition: scale(0.2);
+            color: blueviolet;
+        }
+        #el{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <section class="contain">
+        <div class="demo">
+            <div class="sec">
+                <img src="stripe.jpeg" alt="">
+                <ul>
+                    <li>Stripe</li>
+                    <li>Payment Service</li>
+                    <li id="title">&#9733;&#9733;&#9733;&#9733;</li>
+                </ul>
+            </div>
+            <p>Get more context on your users with stripe data inside our platform.</p><br>
+            <div id="el">
+                <p>Installed 172 times</p>
+                <p id="set">View></p>
+            </div>
+        </div>
+        <div class="demo">
+            <div class="sec">
+                <img src="mailchimp.png" alt="">
+                <ul>
+                    <li>Mailchimp</li>
+                    <li>Project Management</li>
+                    <li id="title">&#9733;&#9733;&#9733;&#9733;</li>
+                </ul>
+            </div>
+            <p>Capture and sync subsribers from your mailchimp platfrom to ours with ease.</p><br>
+            <div id="el">
+                <p>Installed 1234 times</p>
+                <p id="set">View></p>
+            </div>
+        </div>
+        <div class="demo">
+            <div class="sec">
+                <img src="dropbox.jpeg" alt="">
+                <ul>
+                    <li>Dropbox</li>
+                    <li>File Management</li>
+                    <li id="title">&#9733;&#9733;&#9733;&#9733;</li>
+                </ul>
+            </div>
+            <p>Use dropbox to sync your photos to our platform and share it with others.</p><br>
+            <div id="el">
+                <p>Installed 1234 times</p>
+                <p id="set">View></p>
+            </div>
+        </div>
+        <div class="demo">
+            <div class="sec">
+                <img src="atlassian.png" alt="">
+                <ul>
+                    <li>Atlassian</li>
+                    <li>Project Management</li>
+                    <li id="title">&#9733;&#9733;&#9733;&#9733;</li>
+                </ul>
+            </div>
+            <p>Developing products for developers,projects managers and architects.</p><br>
+            <div id="el">
+                <p>Installed 1234 times</p>
+                <p id="set">View></p>
+            </div>
+        </div>
+        <div class="demo">
+            <div class="sec">
+                <img src="shopify.png" alt="">
+                <ul>
+                    <li>Shopify</li>
+                    <li>Ecommerce</li>
+                    <li id="title">&#9733;&#9733;&#9733;&#9733;</li>
+                </ul>
+            </div>
+            <p>Sell your items with ease with having any website with our free platform.</p><br>
+            <div id="el">
+                <p>Installed 1234 times</p>
+                <p id="set">View></p>
+            </div>
+        </div>
+        <div class="demo">
+            <div class="sec">
+                <img src="salesforce.png" alt="">
+                <ul>
+                    <li>Saleforce</li>
+                    <li>Project Management</li>
+                    <li id="title">&#9733;&#9733;&#9733;&#9733;</li>
+                </ul>
+            </div>
+            <p>Developing products for developers,projects managers and architects.</p><br>
+            <div id="el">
+                <p>Installed 345 times</p>
+                <p id="set">View></p>
+            </div>
+        </div> 
+    </section> 
+</body>
+</html>
